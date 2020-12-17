@@ -1,7 +1,6 @@
 # Getting and Cleaning Data
 ## Week 4 Project
-## I also want to test this 
-## Once more
+
 
 ### The script has the folowing functionality: 
 * Merges the training and the test sets to create one data set.
