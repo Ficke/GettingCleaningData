@@ -56,14 +56,12 @@ old_names <- c("Acc","Gyro","Mag","^t","^f","tBody","-mean()","-std()","-freq()"
 new_names <- c("Accelerometer","Gyroscope","Magnitude","Time","Frequency","TimeBody","Mean","StdDev","Frequency","Angle","Gravity")
 
 names(full_MS) <- stringi::stri_replace_all_regex(names(full_MS), old_names, new_names, vectorize_all = FALSE)
-names(full_MS)
 
 #Create TidyData set with averages of each variable for each activity and each subject.
 TidyDataSet <- full_MS %>%
         group_by(subject,activity) %>%
         summarise_all(list(mean = mean))
 
-head(TidyDataSet)
 write.table(TidyDataSet, file = "TidyDataSet.txt",row.names = FALSE)
 
 write_delim(TidyDataSet, delim = ",", file = "TidyDataSet.txt")

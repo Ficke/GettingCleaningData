@@ -11,6 +11,17 @@ Getting and Cleaning Data
 * Relabels the fields with descriptive variable names.
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+### Instructions 
+Follow the comments for the code - the steps the code follows are: 
+
+1. Downloading the data 
+2. Load the data & label it according to features.txt and subject_train.txt
+3. Merge the train and test sets together 
+4. Subset to just the mean and standard deviation measurments 
+5. Change the field names from abbreviations to readable descriptors 
+6. Create a tidy data set with averages of each variable for every activity and subject by grouping and summarizing
+7. Save the tidy data set as a text file 
+
 credit: 
 
 > [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  
