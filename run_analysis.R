@@ -64,7 +64,7 @@ TidyDataSet <- full_MS %>%
         summarise_all(list(mean = mean))
 
 head(TidyDataSet)
-write_csv(TidyDataSet, file = "TidyDataSet.csv")
+write.table(TidyDataSet, file = "TidyDataSet.txt",row.names = FALSE)
 
 write_delim(TidyDataSet, delim = ",", file = "TidyDataSet.txt")
 TidyDataSet
