@@ -11,7 +11,8 @@ variables, the data, and any transformations
 
 The variables given in the study include accelerometer and gyroscope 3-axial raw signals, labeled tAcc-XYZ and tGyro-XYZ respectively. These signals correspond to movement from subjects engaging in 6 activities: 
 
-> * Walking 
+> 
+* Walking 
 * Walking Upstairs 
 * Walking Downstairs 
 * Sitting 
