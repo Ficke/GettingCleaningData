@@ -2,6 +2,7 @@ Getting and Cleaning Data
 =================
 ## Week 4 Project
 ## Adam Ficke
+## December 2020 
 
 
 ### This script has the folowing functionality: 
